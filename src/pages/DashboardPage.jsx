@@ -364,7 +364,7 @@ export default function DashboardPage() {
               <div>
                 <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">API Connection Status</p>
                 <p className="text-sm font-black text-slate-900 dark:text-white">
-                  {summaryError ? '⚠ Connection Error' : summaryLoading ? 'Establishing Connection…' : `✓ Zorvyn Mock API  —  ${apiPing ? apiPing + 'ms latency' : 'connected'}`}
+                  {summaryError ? '⚠ Connection Error' : summaryLoading ? 'Establishing Connection…' : `✓ Artha Mock API  —  ${apiPing ? apiPing + 'ms latency' : 'connected'}`}
                 </p>
               </div>
             </div>
@@ -465,7 +465,7 @@ export default function DashboardPage() {
               })}
             </div>
           ) : null}
-          <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mt-4">Forecast based on trailing 3-month avg. via Zorvyn Analytics API</p>
+          <p className="text-[9px] font-black uppercase tracking-widest text-slate-400 mt-4">Forecast based on trailing 3-month avg. via Artha Analytics API</p>
         </Card>
 
       </motion.div>

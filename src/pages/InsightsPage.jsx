@@ -55,7 +55,7 @@ export default function InsightsPage() {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Cash Flow Statement - Zorvyn Enterprise</title>
+          <title>Cash Flow Statement - Artha Enterprise</title>
           <style>
             body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 40px; max-width: 800px; margin: auto; color: #1e293b; background: #f8fafc; }
             .card { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
@@ -68,8 +68,8 @@ export default function InsightsPage() {
         </head>
         <body>
           <div class="card">
-            <h1>Zorvyn Financials</h1>
-            <p><strong>Entity:</strong> Zorvyn Enterprise<br/><strong>Period:</strong> Q1 2026<br/><strong>Generated:</strong> ${new Date().toLocaleDateString()}</p>
+            <h1>Artha Financials</h1>
+            <p><strong>Entity:</strong> Artha Enterprise<br/><strong>Period:</strong> Q1 2026<br/><strong>Generated:</strong> ${new Date().toLocaleDateString()}</p>
             
             <h2>Operating Activities</h2>
             <div class="row"><span>Net Income</span><span>${s}450,000</span></div>
@@ -94,7 +94,7 @@ export default function InsightsPage() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = `Zorvyn_CashFlow_Q1_2026.html`;
+    link.download = `Artha_CashFlow_Q1_2026.html`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

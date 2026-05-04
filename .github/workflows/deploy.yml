@@ -1,4 +1,4 @@
-name: Deploy Zorvyn to GitHub Pages
+name: Deploy Artha to GitHub Pages
 
 on:
   push:

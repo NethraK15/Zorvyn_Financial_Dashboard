@@ -241,7 +241,7 @@ export default function WalletPage() {
                         <p className="text-[10px] uppercase font-black tracking-widest text-emerald-500">Active & Verified</p>
                       </div>
                     </div>
-                    <p className="text-xs font-medium text-slate-500 dark:text-slate-400">This card is fully synced with Zorvyn. Recent transactions are automatically imported.</p>
+                    <p className="text-xs font-medium text-slate-500 dark:text-slate-400">This card is fully synced with Artha. Recent transactions are automatically imported.</p>
                   </Card>
                 </div>
               </motion.div>

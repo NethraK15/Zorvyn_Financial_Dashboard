@@ -1,8 +1,8 @@
-# Zorvyn Enterprise - Financial Analytics Dashboard
+# Artha Enterprise - Financial Analytics Dashboard
 
-![Zorvyn Banner](/README_banner.png) *(Note: Application is highly animated, static images may not capture full fidelity)*
+![Artha Banner](/README_banner.png) *(Note: Application is highly animated, static images may not capture full fidelity)*
 
-Zorvyn is a highly engaging, physics-animated, and deeply analytical financial dashboard engineered to track liquidity, visualize spending, and manage digital wallets.
+Artha is a highly engaging, physics-animated, and deeply analytical financial dashboard engineered to track liquidity, visualize spending, and manage digital wallets.
 
 ## 🌟 Key Features
 
@@ -24,12 +24,12 @@ Zorvyn is a highly engaging, physics-animated, and deeply analytical financial d
 
 ## 📦 Setup & Installation
 
-Follow these steps to run Zorvyn locally:
+Follow these steps to run Artha locally:
 
 1.  **Clone the Repository** (If applicable):
     ```bash
-    git clone https://github.com/your-repo/zorvyn.git
-    cd zorvyn
+    git clone https://github.com/your-repo/artha.git
+    cd artha
     ```
 
 2.  **Install Dependencies:**

@@ -1,5 +1,5 @@
 /**
- * Zorvyn Mock API Service
+ * Artha Mock API Service
  * 
  * Simulates a REST-style backend with realistic latency, error rates,
  * and structured response envelopes. In production, replace `mockFetch`
@@ -25,7 +25,7 @@ let _transactions = [...mockTransactions];
 let _user = {
   id: "usr_001",
   name: "Jane Doe",
-  email: "jane.doe@zorvyn.io",
+  email: "jane.doe@artha.io",
   avatar: "/avatar.png",
   memberSince: "2024-01-15",
   plan: "Premium",

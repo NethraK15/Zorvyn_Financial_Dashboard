@@ -56,7 +56,7 @@ export default function Sidebar({ mobileOpen, onClose }) {
               <TrendingUp className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-black text-slate-900 dark:text-white tracking-tighter leading-none">Zorvyn</h1>
+              <h1 className="text-2xl font-black text-slate-900 dark:text-white tracking-tighter leading-none">Artha</h1>
               <p className="text-[10px] text-indigo-500 font-black tracking-[2px] uppercase mt-1">Enterprise</p>
             </div>
           </div>

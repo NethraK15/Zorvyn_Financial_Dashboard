@@ -53,7 +53,7 @@ const useStore = create(
       updateCard: (id, data) => set((s) => ({ walletCards: s.walletCards.map(c => c.id === id ? { ...c, ...data } : c) })),
       deleteCard: (id) => set((s) => ({ walletCards: s.walletCards.filter(c => c.id !== id) })),
     }),
-    { name: "zorvyn-dashboard-v3", partialize: (s) => ({ transactions: s.transactions, darkMode: s.darkMode, role: s.role, settings: s.settings, walletCards: s.walletCards }) }
+    { name: "artha-dashboard-v3", partialize: (s) => ({ transactions: s.transactions, darkMode: s.darkMode, role: s.role, settings: s.settings, walletCards: s.walletCards }) }
   )
 );
 
